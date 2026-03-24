@@ -14,3 +14,11 @@ body{
     
 }
 
+img{
+    width: 45%;
+    height: auto;
+    display: inline-block;
+    margin: 5px;
+    vertical-align: top;
+
+}
