@@ -16,9 +16,8 @@ body{
 }
 
 img{
-    max-width: 600px;
     height: auto;
-    width: 100%;
+    width: 300%;
     display: inline-block;
     margin: 5px;
     vertical-align: top;
