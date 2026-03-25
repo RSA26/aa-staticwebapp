@@ -1,16 +1,45 @@
-body{
-    background-color: #15151e;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
+/* 1. Fikser bakgrunn og tekstsentrering */
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    text-align: center; /* Dette flytter tekst og knapper til midten */
     margin: 0;
-
-    
+    padding: 20px;
 }
 
-header{
-    color: e10600;
-    text-align: center;
-    font-size: 3 rem;
-    
+/* 2. Fikser BILDENE (viktig!) */
+img {
+    max-width: 400px;  /* Bildet blir aldri bredere enn dette */
+    width: 90%;        /* På små skjermer tar det 90% av plassen */
+    height: auto;      /* Beholder proporsjonene */
+    border-radius: 8px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* 3. Fikser knappene så de ligger pent øverst */
+.nav-menu {
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #e10600; /* F1 Rød */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* 4. Fikser tekstboksene */
+p {
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+    text-align: left; /* Teksten inni boksen er lettere å lese fra venstre */
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
 }
