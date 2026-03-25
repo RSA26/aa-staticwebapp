@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Min Første Nettside</title>
+</head>
+
+<body>
+
+    <h1>Velkommen 🚀</h1>
+
+    <p>Dette er min første nettside i Azure Static Web App.</p>
+
+    <button onclick="alert('Hei! 👋')">Klikk meg</button>
+
+</body>
+
+</html>
