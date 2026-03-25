@@ -9,11 +9,11 @@ body {
 
 /* 2. Fikser BILDENE (viktig!) */
 img {
-    max-width: 200px;  /* Bildet blir aldri bredere enn dette */
-    width: 45%;        /* På små skjermer tar det 90% av plassen */
+    max-width: 400px;  /* Bildet blir aldri bredere enn dette */
+    width: 90%;        /* På små skjermer tar det 90% av plassen */
     height: auto;      /* Beholder proporsjonene */
-    border-radius: 4px;
-    margin: 10px auto;
+    border-radius: 8px;
+    margin: 20px auto;
     display: block;
 }
 
