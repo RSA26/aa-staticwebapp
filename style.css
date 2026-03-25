@@ -1,19 +1,36 @@
-<!DOCTYPE html>
-<html lang="no">
+/* Hele siden */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b0f1a; /* mørk bakgrunn */
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <title>Min Første Nettside</title>
-</head>
+/* Overskrift */
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
 
-<body>
+/* Tekst */
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
 
-    <h1>Velkommen 🚀</h1>
+/* Knapp */
+button {
+    background-color: #e10600; /* F1 rød 🔥 */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
-    <p>Dette er min første nettside i Azure Static Web App.</p>
-
-    <button onclick="alert('Hei! 👋')">Klikk meg</button>
-
-</body>
-
-</html>
+/* Hover effekt */
+button:hover {
+    background-color: #ff2a2a;
+}
