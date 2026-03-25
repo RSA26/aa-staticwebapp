@@ -2,48 +2,62 @@
 <html lang="no">
 <head>
     <meta charset="UTF-8">
-    <title>F1 News</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Sjekk at navnet stemmer! -->
-    
-</head>button
+    <title>F1 News 2026</title>
+    <!-- Sørg for at styles.css ligger i samme mappe som denne fila -->
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-    <script src="Fone.js"></script>
 
-    <h2 id="info">choose a driver</h2>
-    <img id="driverimg"
-    
-
-
+    <!-- 1. NAVIGATION (Knappene øverst) -->
     <div class="nav-menu">
         <a href="schedule.html"><button>SCHEDULE</button></a>
         <a href="drivers.html"><button>DRIVERS</button></a>
         <a href="History.html"><button>HISTORY</button></a>
     </div>
 
+    <!-- 2. HOVEDINNHOLD -->
     <h1>FORMULA ONE NEWS</h1>
+    
+    <h2 id="info">Velkommen til 2026-sesongen</h2>
 
-    <img src="C:\Projects\aa-staticwebapp\246417964_400677378299747_614585410814953228_n.jpg" alt="F1 News">
+    <!-- VIKTIG: Hvis du har bildet lokalt, må det hete nøyaktig dette og ligge i samme mappe -->
+    <img src="f1-news-bilde.jpg" alt="F1 News Bilde">
 
- <p>
-    Velkommen til Formel 1-sesongen 2026
-    Formel 1 er verdens øverste klasse for baneracing med åpne hjulbiler. Sesongen 2026 markerer starten på en ny æra med det største tekniske regelendringene i sportens historie, inkludert helt nye motorer og aktiv aerodynamikk. Totalt skal 22 førere fra 11 team kjempe om poeng gjennom 24 løpshelger på fem kontinenter. [1, 2, 3, 4] 
-    Neste løp:
+    <div class="content-box">
+        <p>
+            <strong>Formel 1-sesongen 2026</strong> markerer starten på en ny æra med de største tekniske regelendringene i sportens historie, inkludert helt nye motorer og aktiv aerodynamikk. Totalt skal 22 førere fra 11 team kjempe om poeng gjennom 24 løpshelger.
+        </p>
 
-    * Grand Prix: Japans Grand Prix
-    * Bane: Suzuka Circuit
-    * Dato: 27. – 29. mars 2026 [5, 6] 
+        <h3>Neste løp:</h3>
+        <ul>
+            <li><strong>Grand Prix:</strong> Japans Grand Prix</li>
+            <li><strong>Bane:</strong> Suzuka Circuit</li>
+            <li><strong>Dato:</strong> 27. – 29. mars 2026</li>
+        </ul>
 
-    Stillingen i mesterskapet (per 24. mars 2026):
-    Etter sesongens to første runder i Australia og Kina, er det Mercedes som har tatt kommandoen i det nye reglementet. [7, 8] 
+        <h3>Stillingen i mesterskapet (per 24. mars 2026):</h3>
+        <table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
+            <thead>
+                <tr style="background-color: #e10600; color: white;">
+                    <th>Plass</th>
+                    <th>Fører</th>
+                    <th>Poeng</th>
+                    <th>Team</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>George Russell</td><td>51</td><td>Mercedes</td></tr>
+                <tr><td>2</td><td>Kimi Antonelli</td><td>47</td><td>Mercedes</td></tr>
+                <tr><td>3</td><td>Charles Leclerc</td><td>34</td><td>Ferrari</td></tr>
+                <tr><td>4</td><td>Lewis Hamilton</td><td>33</td><td>Ferrari</td></tr>
+            </tbody>
+        </table>
+    </div>
 
-    | Plass | Fører | Poeng | Team |
-    |---|---|---|---|
-    | 1 | George Russell | 51 | Mercedes |
-    | 2 | Kimi Antonelli | 47 | Mercedes |
-    | 3 | Charles Leclerc | 34 | Ferrari |
-    | 4 | Lewis Hamilton | 33 | Ferrari |
-</p>
+    <!-- 3. JAVASCRIPT (Ligger helt nederst så siden laster raskt) -->
+    <script src="Fone.js"></script>
 
 </body>
 </html>
+
 
