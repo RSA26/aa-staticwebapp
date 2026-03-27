@@ -17,9 +17,9 @@ const drivers = {
 
         team: "Red Bull",
 
-        wins: 60,
+        wins: 71,
 
-        color: "red",
+        color: "red,blue",
 
         image: "images/max.jpg"
 
@@ -27,13 +27,13 @@ const drivers = {
 
     "Lewis Hamilton": {
 
-        team: "Mercedes",
+        team: "Ferrari",
 
-        wins: 103,
+        wins: 105,
 
-        color: "silver",
+        color: "Red",
 
-        image: "images/lewis.jpg"
+        image: https//a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/868.png&w=350&h=254"
 
     },
 
@@ -41,7 +41,7 @@ const drivers = {
 
         team: "Ferrari",
 
-        wins: 20,
+        wins: 8,
 
         color: "red",
 
