@@ -19,7 +19,7 @@ const drivers = {
 
         wins: 71,
 
-        color: "red,blue",
+        color: "blue",
 
         image: "images/max.jpg"
 
