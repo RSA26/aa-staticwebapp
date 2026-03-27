@@ -16,7 +16,59 @@
     <button onclick="alert('Japan 27th - 29th March')">Next Race</button>
 
      <button onclick="alert('SUZUKA circuit , capacity: 155000, Bane rekord : Kimi Raikkinen (1.31,540)')">CIRCUIT</button>
-     
+
+     // Data om sjåførene
+
+const drivers = {
+
+    "Max Verstappen": {
+
+        team: "Red Bull",
+
+        wins: 60,
+
+        color: "red",
+
+        image: "images/max.jpg"
+
+    },
+
+    "Lewis Hamilton": {
+
+        team: "Mercedes",
+
+        wins: 103,
+
+        color: "silver",
+
+        image: "images/lewis.jpg"
+
+    },
+
+    "Charles Leclerc": {
+
+        team: "Ferrari",
+
+        wins: 20,
+
+        color: "red",
+
+        image: "images/charles.jpg"
+
+    }
+
+};
+ 
+<h2 id="info">Choose a driver</h2>
+<img id="driverImg" src="" alt="" width="300"><br>
+ 
+<button onclick="showDriver('Max Verstappen')">MAX</button>
+<button onclick="showDriver('Lewis Hamilton')">LEWIS</button>
+<button onclick="showDriver('Charles Leclerc')">CHARLES</button>
+ 
+<script src="script.js"></script>
+ 
+
 
 <script src="script.js"></script>
 </body>
