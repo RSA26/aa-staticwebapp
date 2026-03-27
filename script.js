@@ -6,7 +6,7 @@ const button = document.querySelector("button");
 
 // Når du klikker på knappen
 button.addEventListener("click", function() {
-    alert("Velkommen til nettsiden! 😎");
+    alert("");
 });
 
 // Data om sjåførene
@@ -33,7 +33,7 @@ const drivers = {
 
         color: "Red",
 
-        image: https//a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/868.png&w=350&h=254"
+        image: "https: //a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/868.png&w=350&h=254"
 
     },
 
